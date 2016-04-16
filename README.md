@@ -71,6 +71,7 @@ publication <- function(base_size = 12) {
 ```
 ####Plots of Change in Allele Frequency Between Time Points
 
+![alt text](https://cloud.githubusercontent.com/assets/17581319/14583577/dbcd689e-03eb-11e6-93f8-d30933b490bd.png)
 
 ###Piechart for absence/presence of SNP in ancester
 
