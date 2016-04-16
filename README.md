@@ -1,16 +1,16 @@
 # HART-Step-5
 
-###Introduction
+###__Introduction__
 ######Upon examination of the VCF file for the sequences we have been analyzing, it was found that there were five regions where peaks of change occured throughout the experiment. In the following analyses of the data we will attempt to determine where these SNPs occur, what genes are involved, and why, potentially, these genes underwent mutation during the course of the experiment. We will then determine how the polymorphisms arose by comparing the regions back to the ancestral sequences to see if the mutations were present in any of the ancestor strains.
 
 
 
-###Step 1 Description of SNPs
+###__Step 1 Description of SNPs__
 ######SNPs were characterized first by whether or not they were found within coding regions, then each SNP was examined to see of that change resulted in a synonymous (no effect on the protein sequence) or non-synonymous (caused a change in the protein sequence) mutation, and finally what gene or genes were involved in the SNPs of any given peak. This data is summarized in Table 1. 
 
 
 
-###Step 2 Comparisons of allele frequencies over time
+###__Step 2 Comparisons of allele frequencies over time__
 ######R was used to compare how the allele frequency of each peak changed over the course of the experiment. Allele frequency was plotted as an average for each peak acrss the four generation time points (ancestor/founder, 6, 12 and 18 generation. 3 intervals, 4 time points). We then determined what proportion of SNPs found in the resequenced populations was present in the ancestor. The script to create these graphics is explained below:
 
 Select the working directory for R under Session panel, and invoke ggplot2 package
@@ -72,7 +72,7 @@ publication <- function(base_size = 12) {
 ####Plots of Change in Allele Frequency Between Time Points
 
 
-###Piechart for absence/presence of SNP in ancaster
+###Piechart for absence/presence of SNP in ancester
 
 Source vcftools package and extract ancestor SNPs from vcf files
 ```
