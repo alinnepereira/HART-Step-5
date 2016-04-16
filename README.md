@@ -72,9 +72,12 @@ publication <- function(base_size = 12) {
 ####Plots of Change in Allele Frequency Between Time Points
 
 ![alt text](https://cloud.githubusercontent.com/assets/17581319/14583577/dbcd689e-03eb-11e6-93f8-d30933b490bd.png)
+![alt text](https://cloud.githubusercontent.com/assets/17581319/14583596/7510feda-03ec-11e6-8da7-278555dcc0d4.png)
+![alt text](https://cloud.githubusercontent.com/assets/17581319/14583597/87835afe-03ec-11e6-80e0-c226847b3535.png)
+![alt text](https://cloud.githubusercontent.com/assets/17581319/14583600/99dec7d8-03ec-11e6-85b4-59ae61a5ca9e.png)
+![alt text](https://cloud.githubusercontent.com/assets/17581319/14583602/aa17735c-03ec-11e6-9da0-7ce8073dd945.png)
 
 ###Piechart for absence/presence of SNP in ancester
-
 Source vcftools package and extract ancestor SNPs from vcf files
 ```
 \#!/bin/sh/
@@ -99,4 +102,4 @@ absence_labels <- paste(absence_labels, "%", sep="")
 pie(absence, main="Absence/presence of SNPs in Ancestor", col=colors, labels=absence_labels, cex=0.8)
 legend(1.5, 0.5, c("Absence","Presence"), cex=0.8, fill=colors)
 ```
-
+![alt text](https://cloud.githubusercontent.com/assets/17581319/14583604/c6073188-03ec-11e6-86ca-775623ba898f.png)
