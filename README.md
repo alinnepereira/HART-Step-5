@@ -11,7 +11,7 @@
 
 
 ###Step 2 Comparisons of allele frequencies over time
-######R was used to compare how the allele frequency of each peak changed over the course of the experiment. Allele frequency was plotted as an average for each peak acrss the four generation time points (ancestor/founder, 6, 12 and 18 generation. 3 intervals, 4 time points). The script to create these graphics is explained below:
+######R was used to compare how the allele frequency of each peak changed over the course of the experiment. Allele frequency was plotted as an average for each peak acrss the four generation time points (ancestor/founder, 6, 12 and 18 generation. 3 intervals, 4 time points). We then determined what proportion of SNPs found in the resequenced populations was present in the ancestor. The script to create these graphics is explained below:
 
 Select the working directory for R under Session panel, and invoke ggplot2 package
 
@@ -72,12 +72,30 @@ publication <- function(base_size = 12) {
 ####Plots of Change in Allele Frequency Between Time Points
 
 
-## piechart for absence/presence of SNP in ancaster
+###Piechart for absence/presence of SNP in ancaster
 
-## step1
-## source vcftools package
-#!/bin/sh/
+Source vcftools package and extract ancestor SNPs from vcf files
+```
+\#!/bin/sh/
 source /opt/asn/etc/asn-bash-profiles/modules.sh
 module load vcftools/0.1.12a
-## using option --indv to extract ancestor SNPs from the whole vcf files 
 vcftools --vcf Combined.Q30.recode.vcf --indv YEE_0112_00_00_00 --recode --recode-INFO-all --out SNP_ancster
+```
+Use awk command to assign all the genotype of ancestor to file “genotype_ancestor” without listing header in it and count SNPs that are homozygous to the reference (absence value)
+```
+awk '$0!~/^#/ {print $10}' SNP_ancster.recode.vcf | awk -F: '{print $1}'>genotype_ancestor
+grep -o "0/0" genotype_ancester | wc -l
+```
+Create piechart by first defining absence/presence vectors with 2 values, define colors and calculate rounded percentages for each portions. 
+```
+absence <- c(3289, 97990)
+colors <- c("white","grey")
+absence_labels <- round(absence/sum(absence) * 100, 1)
+```
+Concatenate a '%' char after each value, add headings and labels, and create legend
+```
+absence_labels <- paste(absence_labels, "%", sep="")
+pie(absence, main="Absence/presence of SNPs in Ancestor", col=colors, labels=absence_labels, cex=0.8)
+legend(1.5, 0.5, c("Absence","Presence"), cex=0.8, fill=colors)
+```
+
