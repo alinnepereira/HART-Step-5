@@ -118,4 +118,4 @@ Peak1_chrVII_965303
 Peak1_chrVII_967405&967437  
 ![peak1_snpchrvii_967405 967437](https://cloud.githubusercontent.com/assets/17581280/14590707/c72db124-04c6-11e6-8d13-ee14ca749e01.png)  
 ##### Peak1 Conclusion
-The genotype of samples from 5 replicates (at 3 timepoint) are mostly consistent with genotypes in ancestor, potentially indicating that three SNPs in peak1 are very likely to evolve de novo during the experiment.  	
+The genotype of samples from 5 replicates (at 3 timepoint) are mostly consistent with genotypes in ancestor, potentially indicating that three SNPs in peak1 are very likely to evolve *de novo* during the experiment.  	
