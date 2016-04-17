@@ -116,4 +116,5 @@ Peak1 (3 SNPs: chrVII965303, chrVII967405, and chrVII967437)
 Peak1_chrVII_965303  
 ![peak1_snpchrvii_965303](https://cloud.githubusercontent.com/assets/17581280/14590614/f98fcf00-04c4-11e6-8840-a88b4048f988.png)  
 Peak1_chrVII_967405&967437  
+![peak1_snpchrvii_967405 967437](https://cloud.githubusercontent.com/assets/17581280/14590707/c72db124-04c6-11e6-8d13-ee14ca749e01.png)  
 
