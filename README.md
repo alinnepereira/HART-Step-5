@@ -77,6 +77,10 @@ publication <- function(base_size = 12) {
 ![alt text](https://cloud.githubusercontent.com/assets/17581319/14583600/99dec7d8-03ec-11e6-85b4-59ae61a5ca9e.png)
 ![alt text](https://cloud.githubusercontent.com/assets/17581319/14583602/aa17735c-03ec-11e6-9da0-7ce8073dd945.png)
 
+####Brief conclusion
+
+
+
 ###Piechart for absence/presence of SNP in ancester
 Source vcftools package and extract ancestor SNPs from vcf files
 ```
