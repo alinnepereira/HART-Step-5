@@ -77,8 +77,8 @@ publication <- function(base_size = 12) {
 ![alt text](https://cloud.githubusercontent.com/assets/17581319/14583600/99dec7d8-03ec-11e6-85b4-59ae61a5ca9e.png)
 ![alt text](https://cloud.githubusercontent.com/assets/17581319/14583602/aa17735c-03ec-11e6-9da0-7ce8073dd945.png)
 
-####Brief conclusion
-
+####Brief Conclusion
+From the five images presenting 5 SNP peaks, we can see there are a gread differnces in variation of allele frequency between three time points/generations. 
 
 
 ###Piechart for absence/presence of SNP in ancester
@@ -107,3 +107,6 @@ pie(absence, main="Absence/presence of SNPs in Ancestor", col=colors, labels=abs
 legend(1.5, 0.5, c("Absence","Presence"), cex=0.8, fill=colors)
 ```
 ![alt text](https://cloud.githubusercontent.com/assets/17581319/14583604/c6073188-03ec-11e6-86ca-775623ba898f.png)
+
+#### Brief Conclusion
+From piechart above, we can most SNPs in ancestor are differnt from reference genome, and only 3.2% of these SNPs are homozygous to reference.  
