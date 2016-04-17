@@ -78,7 +78,7 @@ publication <- function(base_size = 12) {
 ![alt text](https://cloud.githubusercontent.com/assets/17581319/14583602/aa17735c-03ec-11e6-9da0-7ce8073dd945.png)
 
 ####Brief Conclusion
-From the five images presenting 5 SNP peaks, we can see there are a gread differnces in variation of allele frequency between three time points/generations. 
+From the five images presenting 5 SNP peaks, we can see there are a great differnces in variation of allele frequency between three time points/generations. 
 
 
 ###Piechart for absence/presence of SNP in ancester
