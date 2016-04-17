@@ -109,4 +109,6 @@ legend(1.5, 0.5, c("Absence","Presence"), cex=0.8, fill=colors)
 ![alt text](https://cloud.githubusercontent.com/assets/17581319/14583604/c6073188-03ec-11e6-86ca-775623ba898f.png)
 
 #### Brief Conclusion
-From piechart above, we can most SNPs in ancestor are differnt from reference genome, and only 3.2% of these SNPs are homozygous to reference.  
+From piechart above, we see most SNPs in ancestor are differnt from reference genome, and only 3.2% of these SNPs are homozygous to reference. This indicates that most of the polymorphisms in ancestor arose de novo throughout the experiment.
+
+
