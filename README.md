@@ -126,8 +126,8 @@ There are, among the peaks of SNPs, some interesting things to note. Peak 2, fou
 
 ![alt text](https://raw.githubusercontent.com/AUIntroBioinformatics/HART-Step-5/master/Peak%20B.jpg?token=AQxFB_vkG-aM1CTnLrbhmOFp-xrKC-Cnks5XHY1uwA%3D%3D)
 
-The above figure shows the SNPs present in Peak 2. Using a visualization software such as IGV made browsing the SNPs straightforward. As may be seen here, the West African founder contained most of the SNPs in this peak.
+The above figure shows the SNPs present in Peak 2. Using a visualization software such as IGV made browsing the SNPs straightforward. As may be seen here, the West African founder contained most of the SNPs in this peak.  
 
-
+Taken together, in this step we were given a total of 39 SNPs where the change throught the experiment have occured. 
 
 
