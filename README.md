@@ -116,8 +116,10 @@ legend(1.5, 0.5, c("Absence","Presence"), cex=0.8, fill=colors)
 
 From piechart above, we see most SNPs in ancestor are present in the experimental populations. Only 3.2% of SNPs were not present in at least one of the ancestral populations. To further explore the origins of these SNPs, we utilized IGV to visualize each SNP, determine which ancestor, if any, possessed the mutation, and finally which genes were affected. This information is summarized in Table 2. There are, among the peaks of SNPs, some interesting things to note. Peak 2, found on chromosome IX, contained many SNPs which were unique to the West African ancestor, with only a few found in the other ancestor populations, these SNPs are shown in the figure below. Peak 4, found on chromosome XIII, only had one SNP, but that SNP was present in all but on of the ancestor populations (Asian). In Peak 5 on chromosome XVI 4 of the 6 SNPs were found in the Asian ancestor, three of the SNPs were, in fact, unquie to the Asian ancestor. 
 
+
 ![alt text](https://raw.githubusercontent.com/AUIntroBioinformatics/HART-Step-5/master/Peak%20B.jpg?token=AQxFB_vkG-aM1CTnLrbhmOFp-xrKC-Cnks5XHY1uwA%3D%3D)
-The following figure shows the SNPs present in Peak 2. Using a visualization software such as IGV made browsing the SNPs straightforward. As may be seen here, the West African founder contained most of the SNPs in this peak. 
+The above figure shows the SNPs present in Peak 2. Using a visualization software such as IGV made browsing the SNPs straightforward. As may be seen here, the West African founder contained most of the SNPs in this peak. 
+
 
 ![alt text](https://cloud.githubusercontent.com/assets/17581319/14593607/19869f46-04f2-11e6-953a-460066edb84f.jpg)
 
