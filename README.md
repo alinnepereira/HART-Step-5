@@ -6,7 +6,7 @@
 
 
 ###__Step 1 Description of SNPs__
-######SNPs were characterized first by whether or not they were found within coding regions, then each SNP was examined to see of that change resulted in a synonymous (no effect on the protein sequence) or non-synonymous (caused a change in the protein sequence) mutation, and finally what gene or genes were involved in the SNPs of any given peak. This data is summarized in Table 1. 
+######SNPs were characterized first by whether or not they were found within coding regions, then each SNP was examined to see of that change resulted in a synonymous (no effect on the protein sequence) or non-synonymous (caused a change in the protein sequence) mutation, and finally what gene or genes were involved in the SNPs of any given peak. This data is summarized in Table 1. It is of note that a large proportion of the SNPs appear to be non-synonymous mutations. 
 
 
 
