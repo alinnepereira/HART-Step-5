@@ -111,6 +111,6 @@ legend(1.5, 0.5, c("Absence","Presence"), cex=0.8, fill=colors)
 ![alt text](https://cloud.githubusercontent.com/assets/17581319/14583604/c6073188-03ec-11e6-86ca-775623ba898f.png)
 
 
-From piechart above, we see most SNPs in ancestor are present in the experimental populations. Only 3.2% of SNPs were not present in at least one of the ancestral populations. To further explore the origins of these SNPs, we utilized IGV to visualize each SNP, determine which ancestor, if any, possessed the mutation, and finally which genes were affected. This information is summarized in Table 2. There are, among the peaks of SNPs, some interesting things to note. In Peak 5 on chromosome XVI 4 of the 6 SNPs were found in the Asian ancestor, three of the SNPs were, in fact, unquie to the Asian ancestor.
+From piechart above, we see most SNPs in ancestor are present in the experimental populations. Only 3.2% of SNPs were not present in at least one of the ancestral populations. To further explore the origins of these SNPs, we utilized IGV to visualize each SNP, determine which ancestor, if any, possessed the mutation, and finally which genes were affected. This information is summarized in Table 2. There are, among the peaks of SNPs, some interesting things to note. Peak 4, found on chromosome 8 only had one SNP, but that SNP was present in all but on of the ancestor populations (Asian). In Peak 5 on chromosome XVI 4 of the 6 SNPs were found in the Asian ancestor, three of the SNPs were, in fact, unquie to the Asian ancestor.
 
 
