@@ -8,6 +8,9 @@
 ###__Step 1 Description of SNPs__
 ######SNPs were characterized first by whether or not they were found within coding regions. The magnitude of effect for each SNP can vary significantly depending on whether it is part of a coding region. Each coding SNP was examined to see if that change resulted in a synonymous (no effect on the protein sequence) or non-synonymous (caused a change in the protein sequence) mutation. Synonymous mutations are only possible because of the degeneracy of the genetic code. Finally, the genes for each of the five peaks were determined. This data is summarized in Table 1. It is of note that a large proportion of the SNPs appear to be non-synonymous mutations. Thus, expressed protein from these SNP regions may be somewhat structurally and functionally altered. 
 
+![alt text](https://cloud.githubusercontent.com/assets/17581319/14593558/6f932df6-04f1-11e6-97a5-a0c59c6fba90.jpg)
+
+
 
 
 ###__Step 2 Comparisons of allele frequencies over time__
