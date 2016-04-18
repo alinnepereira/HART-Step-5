@@ -128,6 +128,6 @@ There are, among the peaks of SNPs, some interesting things to note. Peak 2, fou
 
 The above figure shows the SNPs present in Peak 2. Using a visualization software such as IGV made browsing the SNPs straightforward. As may be seen here, the West African founder contained most of the SNPs in this peak.  
 
-Taken together, in this step we were given a total of 39 SNPs where the change throught the experiment have occured. 
+Taken together, in this step we were given a total of 39 SNPs where the change throught the experiment have occured. After annotated these SNPs, We then used the UCSC browser and IGV to examine each of these regions to understand why these particular genes may have had mutations during this experiment. 
 
 
