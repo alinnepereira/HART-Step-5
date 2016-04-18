@@ -128,8 +128,6 @@ There are, among the peaks of SNPs, some interesting things to note. Peak 2, fou
 
 The above figure shows the SNPs present in Peak 2. Using a visualization software such as IGV made browsing the SNPs straightforward. As may be seen here, the West African founder contained most of the SNPs in this peak.  
 
-Taken together, in this step we were given a total of 39 SNPs where the change throught the experiment have occured. After annotated these SNPs, We then used the UCSC browser and IGV to examine each of these regions to understand why these particular genes may have had mutations during this experiment. 
-
 ##__Conclusions__
 
 The five peak regions outlined in the considered sequences each showed interesting aspects and characteristics. Within those peak regions, each individual SNP had a unique role in the genetic makeup of each sequence. Many of the SNPs were found in coding regions of the S. cerevisiae genome. Furthermore, most SNPs were nonsynonymous, meaning that they could result in the incorrect reading of an amino acid in protein primary structure. This would potentially cause major changes in the structural and functional aspects of any coded protein.
