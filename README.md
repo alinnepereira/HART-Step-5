@@ -130,4 +130,10 @@ The above figure shows the SNPs present in Peak 2. Using a visualization softwar
 
 Taken together, in this step we were given a total of 39 SNPs where the change throught the experiment have occured. After annotated these SNPs, We then used the UCSC browser and IGV to examine each of these regions to understand why these particular genes may have had mutations during this experiment. 
 
+##__Conclusions__
+
+The five peak regions outlined in the considered sequences each showed interesting aspects and characteristics. Within those peak regions, each individual SNP had a unique role in the genetic makeup of each sequence. Many of the SNPs were found in coding regions of the S. cerevisiae genome. Furthermore, most SNPs were nonsynonymous, meaning that they could result in the incorrect reading of an amino acid in protein primary structure. This would potentially cause major changes in the structural and functional aspects of any coded protein.
+
+Examining the ancestor populations for the presence of SNPs showed that the majority of SNPs were present in the ancestral populations as opposed to arising de novo during the experiment. However, the SNPs were spread evenly throughout the different regional populations observed. For example, some SNPs present in the West African population were completely absent from the Asian or European populations. Overall, the visual output of the IGV was a helpful analysis tool.  
+
 
