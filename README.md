@@ -80,8 +80,10 @@ publication <- function(base_size = 12) {
 ####Brief Conclusion
 From the five images presenting 5 SNP peaks, we can see there are a great differnces in variation of allele frequency between three time points/generations. 
 
+###__Step 3 Comparisons of Resequencing to Ancestral States__ 
+In these anylses we wanted to see which of the SNPs occured in the ancestral popultions before the founder populations were made and which arose _de novo_ during the experiment. First, we created a pie chart to show what percentage of the SNPs occured in the ancestral population.
 
-###Piechart for absence/presence of SNP in ancester
+####Piechart for absence/presence of SNP in ancester
 Source vcftools package and extract ancestor SNPs from vcf files
 ```
 \#!/bin/sh/
@@ -108,7 +110,7 @@ legend(1.5, 0.5, c("Absence","Presence"), cex=0.8, fill=colors)
 ```
 ![alt text](https://cloud.githubusercontent.com/assets/17581319/14583604/c6073188-03ec-11e6-86ca-775623ba898f.png)
 
-#### Brief Conclusion
-From piechart above, we see most SNPs in ancestor are differnt from reference genome, and only 3.2% of these SNPs are homozygous to reference. This indicates that most of the polymorphisms in ancestor arose de novo throughout the experiment.
+
+From piechart above, we see most SNPs in ancestor are present in the experimental populations. Only 3.2% of SNPs were not present in at least one of the ancestral populations. To further explore the origins of these SNPs, we utilized IGV to visualize each SNP, determine which ancestor, if any, possessed the mutation, and finally which genes were affected. This information is summarized in Table 2. There are, among the peaks of SNPs, some interesting things to note. In Peak 5 on chromosome XVI 4 of the 6 SNPs were found in the Asian ancestor, three of the SNPs were, in fact, unquie to the Asian ancestor.
 
 
